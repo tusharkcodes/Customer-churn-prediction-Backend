@@ -9,7 +9,6 @@ from slowapi.errors import RateLimitExceeded
 from fastapi.responses import JSONResponse
 from fastapi import Request
 
-
 app = FastAPI()
 
 app.add_middleware(
